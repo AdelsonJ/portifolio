@@ -1,41 +1,22 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+/* import { skills } from "@/data/skills";
+import SkillCard from "@/components/SkillCard"; */
+import HomeSection from "./components/home/home";
+import AbilitiesSection from "./components/abilities/abilities";
+import ProjectsSection from "./components/projects/projects";
+import AboutSection from "./components/about/about";
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <HomeSection />
+      <AbilitiesSection />
+      <ProjectsSection />
+      <AboutSection />
 
-      <section className={styles.page}>
-        <div className={styles.background_Home}>
-
-          <div className={styles.imagem}>
-            <Image
-              src="/images/avatar.svg" // Caminho relativo para sua imagem SVG na pasta public
-              alt="Avatar para a Home"
-              width={300}
-              height={300}
-              style={{ maxWidth: '100%', maxHeight: '100%' }}
-            />
-          </div>
-          <h1>Bem Vindo ao meu Portfólio</h1>
-        </div>
-      </section>
-
-      <section className={styles.page}>
-          <div className={styles.background_Abilities}>
-            <div className={styles.container_Title_Tools}>
-              <h2> HABILIDADES </h2>
-            </div>
-            <h3> Linguagens</h3>
-            <div className={styles.container_LT}>
-            </div>
-            <h3> Ferramentas</h3>
-            <div className={styles.container_LT}>
-            </div>
-          </div>
-      </section>
-
-      <section className={styles.page}>Página 3
+      {/* CONTATOS */}
+      <section id="contatos" className={styles.page}>Página 5
 
       </section>
     </div>

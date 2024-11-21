@@ -17,10 +17,11 @@
 html,
 
 a {
-  padding: 2px 0;/* 
+  color: inherit; 
+  padding: 2px 0;
   text-decoration: none;
   white-space: nowrap;
-  transition: color 0.2s; */
+  transition: color 0.2s;
 }
 
 body {

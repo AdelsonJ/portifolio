@@ -91,36 +91,10 @@
     margin: 0;
 }
 
-.background_Home{
-    background-image: url('/images/wallpaper_web2_editado.png');;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
 
-.imagem{
-    background-color: #e9030300;
-    width: 25rem;
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.background_Abilities{
+.background_Projects{
     box-sizing: border-box;
-    background-image: url('/images/wallpaper_web1_editado.png');;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
+    background-color: rgb(61, 61, 61); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,45 +104,65 @@
     margin: 0;
     padding: 0;
 }
-.background_Abilities h3{
-    margin: 0;
-    color: #ffffff;
-    font-family: var(--font-mono);
-    font-size: 1.75rem;
-    margin: 1rem;
-}
 
-.container_Title_Tools{
+.projects{
+    box-sizing: border-box;
+    background-color: rgb(158, 145, 94); 
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    background-color: #000000;
+    justify-content: flex-start;
+    width: 70%;
+    height: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.background_About{
+    box-sizing: border-box;
+    background-color: aqua; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
-    height: 6rem;
+    height: 100%;
     margin: 0;
-}
-.container_Title_Tools h2{
-    text-align: center;
-    font-family: var(--font-mono);
-    font-size: 3rem;
-    justify-content: start;
-    margin: 0;
-
+    padding: 0;
 }
 
-.container_LT{
-    background-color: #0f0f0f56;
+.profile{
+    background-color: red; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 90%;
-    height: 25%;
-    margin: 0.33rem;
-    margin-top: 1rem;
-    border-radius: 1.5rem;
+    justify-content: flex-start;
+    width: 20rem;
+    height: 37.5rem;
+    margin: 3rem;
+    margin-left: 20rem;
 }
 
+.profile_image{
+    /* background-image: url('/images/eu.png');;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  */
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15rem;
+    aspect-ratio: 1/1;
+}
+
+.profile_description{
+    background-color: yellow; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40rem;
+    height: 37.5rem;
+}
 
 
 /* Mobile */
