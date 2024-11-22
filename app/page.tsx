@@ -6,6 +6,7 @@ import HomeSection from "./components/home/home";
 import AbilitiesSection from "./components/abilities/abilities";
 import ProjectsSection from "./components/projects/projects";
 import AboutSection from "./components/about/about";
+import ContactSection from "./components/contact/contact";
 
 export default function Home() {
   return (
@@ -14,11 +15,8 @@ export default function Home() {
       <AbilitiesSection />
       <ProjectsSection />
       <AboutSection />
+      <ContactSection />
 
-      {/* CONTATOS */}
-      <section id="contatos" className={styles.page}>Página 5
-
-      </section>
     </div>
   );
 }

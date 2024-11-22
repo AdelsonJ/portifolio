@@ -9,6 +9,7 @@
     scroll-snap-stop: always; 
 }
 
+
 .background{
     box-sizing: border-box;
     background-image: url('/images/wallpapers/wallpaper_abilities.png');;
@@ -44,6 +45,7 @@
     margin: 0;
 }
 .container_Title h2{
+    color: white;
     text-align: center;
     font-family: var(--font-mono);
     font-size: 3rem;

@@ -8,12 +8,12 @@ const HomeSection = () => (
         <Image
           src="/images/avatar.svg"
           alt="Avatar para a Home"
-          width={300}
-          height={300}
+          width={400}
+          height={400}
           style={{ maxWidth: "100%", maxHeight: "100%" }}
         />
       </div>
-      <h1>Bem Vindo ao meu Portfólio</h1>
+      <h1>Bem-vindo ao meu Portfólio</h1>
     </div>
   </section>
 );

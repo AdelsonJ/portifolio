@@ -9,7 +9,12 @@ interface SkillCardProps {
 
 const SkillCard = ({ imageSrc, altText, label }: SkillCardProps) => (
     <div className={styles.container_LT_individual}>
-        <Image src={imageSrc} alt={altText} width={75} height={75} />
+        <Image 
+            src={imageSrc} 
+            alt={altText} 
+            width={75} 
+            height={75} 
+        />
         <p>{label}</p>
     </div>
 );

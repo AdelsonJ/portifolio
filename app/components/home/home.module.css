@@ -26,7 +26,7 @@
 
 .imagem{
     background-color: #e9030300;
-    width: 25rem;
+    min-width: 25rem;
     height: 10rem;
     display: flex;
     justify-content: center;
