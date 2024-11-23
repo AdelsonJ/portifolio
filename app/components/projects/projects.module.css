@@ -24,7 +24,6 @@ width: 8px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    /*justify-content: flex-start; */
     width: 100%;
     height: 100%;
     min-height: 100rem; 
@@ -34,7 +33,7 @@ width: 8px;
 } 
 .background h1{
     color: white;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     font-size: 3rem;
     margin: 0;
     margin-top: 50px; 
@@ -55,7 +54,7 @@ width: 8px;
 }
 .title h1{
     color: black;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     font-size: 3rem;
     margin: 0;
 }
@@ -74,7 +73,6 @@ width: 8px;
     height: 15rem;
     margin: 0;
     padding: 5px;
-    /* border: 2px black solid; */
 }
 
 .line_vertical{
@@ -144,14 +142,14 @@ width: 8px;
 }
 .text h3{
     color: black;
-    font-family: var(--font-mono);
-    font-size: 1.3rem;
+    font-family: var(--font_main);
+    font-size: 1.1rem;
     margin: 0;
     margin-left: 5px;
 }
 .text p {
     color: black;
-    font-size: 1rem; 
+    font-size: 0.9rem; 
     margin: 0;
     padding: 0.5rem; 
     word-wrap: break-word; 
@@ -180,7 +178,7 @@ width: 8px;
 }
 .button_container h3{
     color: black;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     font-size: 2rem;
     margin: 0;
     margin-bottom: 10px; 
@@ -203,7 +201,7 @@ width: 8px;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgb(234, 234, 234);
-    height: 90vh; /* Use uma altura menor para evitar cortes */
+    height: 90vh; 
     width: 80%;
     min-width: 40rem;
     max-width: 50rem;
@@ -215,8 +213,8 @@ width: 8px;
     border: 2px black solid;
     z-index: 1000;
 
-    overflow-y: auto; /* Scroll vertical */
-    padding: 1rem; /* Espaçamento interno */
+    overflow-y: auto; 
+    padding: 1rem;
 }
 .container_modal::-webkit-scrollbar {
     width: 8px;
@@ -233,7 +231,7 @@ width: 8px;
 }
 .modal_content h1{
     color: black;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     font-size: 3rem;
     margin: 0;
     margin-bottom: 10px;
@@ -263,7 +261,7 @@ width: 8px;
 }
 .modal_content .margins_bottom{
     position: relative;
-    margin-top: auto; /* Empurra o conteúdo para o final */
+    margin-top: auto; 
 
     width: 10rem; 
     height: 5rem; 
@@ -295,7 +293,7 @@ width: 8px;
     justify-content: center;
     width: 50%;
     height: auto;
-    min-height: 15rem;
+    min-height: 20rem;
     padding: 5px;
     gap: 10px;
 }
@@ -303,12 +301,13 @@ width: 8px;
 .info {
     width: 95%;
     height: auto; 
-    padding: 5px;
+    padding: 10px;
     margin: 0;
 }
 .info li{
+    font-family: var(--font_main);
     color: black;
-    font-size: 1rem; 
+    font-size: 0.8rem; 
     margin: 0;
     padding: 0.5rem; 
     word-wrap: break-word; 
@@ -332,13 +331,17 @@ width: 8px;
 }
 .text_functionality h3{
     color: black;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     font-size: 1.3rem;
     margin: 0;
     margin-left: 10px;
 }
 .text_functionality p{
     color: black;
+    font-size: 0.9rem; 
+    margin: 0;
+    padding: 0.5rem; 
+    line-height: 1.5; 
 }
 .text_functionality .container_two_text{
     width: 100%;
@@ -404,27 +407,27 @@ width: 8px;
 }
 
 .carouselImage {
-    transition: transform 0.3s ease, filter 0.3s ease; /* Animação para o hover */
+    transition: transform 0.3s ease, filter 0.3s ease; 
 }
 
 .imageWrapper:hover .carouselImage {
-    transform: scale(1.05); /* Aumenta ligeiramente a imagem no hover */
-    filter: brightness(0.7); /* Aplica o filtro branco */
+    transform: scale(1.05); 
+    filter: brightness(0.7); 
 }
 
 .label {
     position: absolute;
-    bottom: 10%; /* Ajuste para posicionar o label */
+    bottom: 10%; 
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro semi-transparente */
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 5px 10px;
     border-radius: 5px;
-    opacity: 0; /* Inicialmente invisível */
-    transition: opacity 0.3s ease; /* Suave transição */
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
 }
 
 .imageWrapper:hover .label {
-    opacity: 1; /* Mostra o label no hover */
+    opacity: 1; 
 }

@@ -13,7 +13,9 @@ const HomeSection = () => (
           style={{ maxWidth: "100%", maxHeight: "100%" }}
         />
       </div>
-      <h1>Bem-vindo ao meu Portfólio</h1>
+      <div className={styles.title}>
+        <h1>Bem-vindo ao meu Portfólio</h1>
+      </div>
     </div>
   </section>
 );

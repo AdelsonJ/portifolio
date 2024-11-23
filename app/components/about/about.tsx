@@ -20,17 +20,19 @@ const AboutSection = () => (
             </div>
 
             <div className={styles.profile_right}>
-              <p>
-              Atualmente, estou no 8º período de Ciência da Computação na 
-              Universidade Federal de São João del-Rei (UFSJ). Ao longo 
-              desses quase quatro anos de faculdade, tive a oportunidade 
-              de aprender e desenvolver sistemas web, iniciando com projetos
-              orientados a objetos e, mais recentemente, com aplicações 
-              voltadas para a web utilizando HTML e CSS. Apesar de ainda
-              estar em processo de aprendizado, tenho grande interesse na 
-              área e busco constantemente me aprimorar para criar soluções 
-              cada vez melhores.
-              </p>
+              <div className={styles.text}>
+                <p>
+                Atualmente, estou no 8º período de Ciência da Computação na 
+                Universidade Federal de São João del-Rei (UFSJ). Ao longo 
+                desses quase quatro anos de faculdade, tive a oportunidade 
+                de aprender e desenvolver sistemas web, iniciando com projetos
+                orientados a objetos e, mais recentemente, com aplicações 
+                voltadas para a web utilizando HTML e CSS. Apesar de ainda
+                estar em processo de aprendizado, tenho grande interesse na 
+                área e busco constantemente me aprimorar para criar soluções 
+                cada vez melhores.
+                </p>
+              </div>
               <div className={styles.container_icon}>
                 <div className={styles.icon}>
                   <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=adelson.everolts@gmail.com" target="_blank" className={styles.gmail}>

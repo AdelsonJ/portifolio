@@ -24,6 +24,27 @@
     margin: 0;
 }
 
+.title {
+    width: 90%;
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.title h1{
+    font-family: var(--font_main);
+    margin: 0;
+    padding: 0.5rem; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    word-break: break-word; 
+    text-align: justify; 
+    white-space: normal;
+}
+
 .imagem{
     background-color: #e9030300;
     min-width: 25rem;

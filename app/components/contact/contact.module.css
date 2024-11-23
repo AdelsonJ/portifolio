@@ -44,7 +44,7 @@
 }
 .background h1{
     color: white;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     font-size: 3rem;
     margin: 0;
     margin-bottom: 50px;

@@ -1,6 +1,6 @@
 
 :root {
-  --font_main: "InknutAntiqua-Bold", sans-serif;
+  --font_main: "Inknut Antiqua", serif; 
 
   --background: #ffffff;
   --foreground: #171717;
@@ -36,19 +36,19 @@ body {
 
 h1{
   color: white;
-  font-family: var(--font-mono);
+  font-family: var(font_main);
   font-size: 3.5rem;
 }
 
 h2{
   color: white;
-  font-family: var(--font-mono);
+  font-family: var(--font_main);
   font-size: 2.75rem;
 }
 
 h3{
   color: white;
-  font-family: var(--font-mono);
+  font-family: var(font_main);
   font-size: 1rem;
 }
 

@@ -23,7 +23,7 @@
     height: 100%;
     margin: 0;
     gap: 5%;
-    position: relative; /* Necessário para usar o ::before */
+    position: relative; 
 }
 .aboutBackground::before {
     content: '';
@@ -32,11 +32,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.5); /* Filtro branco translúcido */
-    z-index: 1; /* Posiciona o filtro acima da imagem */
+    background-color: rgba(255, 255, 255, 0.5); 
+    z-index: 1; 
 }
 .aboutBackground > * {
-    position: relative; /* Garante que o conteúdo fique acima do filtro */
+    position: relative; 
     z-index: 2;
 }
 
@@ -54,7 +54,7 @@
 }
 .title h1{
     color: black;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     font-size: 3rem;
     margin: 0;
 }
@@ -116,7 +116,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 50%;
     height: 35rem;
     min-width:20rem;
@@ -124,7 +124,16 @@
     padding: 20px;
     border: 2px black solid; 
 }
-.profile_right p{
+
+.text{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%; 
+}
+.text p{
     color: black;
     font-size: 1rem; 
     margin: 0;
@@ -139,7 +148,7 @@
 
 .container_icon{
     position: absolute;
-    bottom: 20px;
+    bottom: 0%;
     width: 100%;
     height: 5rem;    
     display: flex;

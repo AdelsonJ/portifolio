@@ -16,7 +16,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
-    /* background-color: white; */
     opacity: 70%;
     display: flex;
     flex-direction: column;
@@ -30,7 +29,7 @@
 .background h3{
     margin: 0;
     color: #000000;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     font-size: 2rem;
     margin: 1.5rem;
 }
@@ -47,7 +46,7 @@
 .container_Title h2{
     color: white;
     text-align: center;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     font-size: 3rem;
     justify-content: start;
     margin: 0;
@@ -80,7 +79,7 @@
 .container_LT_individual p{
     text-align: center;
     color: white;
-    font-family: var(--font-mono);
+    font-family: var(--font_main);
     justify-content: start;
     margin: 2px;
 }
